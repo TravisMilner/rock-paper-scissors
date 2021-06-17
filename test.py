@@ -11,7 +11,7 @@ class TestWon(unittest.TestCase):
 
         while won_game == False:
             won_game = playGame("Rock")
-            print(won_game)
+            
 
         self.assertTrue(won_game)
 
@@ -19,15 +19,15 @@ class TestWon(unittest.TestCase):
 
         while won_game == False:
             won_game = playGame("Paper")
-            print(won_game)
+            
 
         self.assertTrue(won_game)
-        
+
         won_game = False
 
         while won_game == False:
             won_game = playGame("Scissors")
-            print(won_game)
+            
 
         self.assertTrue(won_game)
 
